@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUDO SOBRE GOOGLE GLASS</title>
+    <link rel="stylesheet"  href="css/style.css"/>
+    <link rel="stylesheet"  href="css/media.css"/>
+</head>
+<script language="javascript" src="javascript/funcoes.js"> </script>
+<body>
+<div id="interface">
+<header id="cabecalho">
+    <hgroup>
+        <h1> Google Glass </h1>
+        <h2> A revolução do Google está chegando </h2>    
+    </hgroup>
+    <figure>
+        <img id="icone" src="imagens/multimidia.png"/>
+    </figure>
+    <nav id="menu">
+        <h1>Menu Principal</h1>
+        <ul type="circ">
+            <li onmouseover="mudafoto('imagens/home.png')" onmouseout="mudafoto('imagens/multimidia.png')" ><a href="index.html">Home</a></li>
+            <li onmouseover="mudafoto('imagens/especificacoes.png')" onmouseout="mudafoto('imagens/multimidia.png')" ><a href="specs.html">Especificações</a></li>
+            <li onmouseover="mudafoto('imagens/fotos.png')" onmouseout="mudafoto('imagens/multimidia.png')" ><a href="fotos.html">Fotos</a></li>
+            <li onmouseover="mudafoto('imagens/multimidia.png')" onmouseout="mudafoto('imagens/multimidia.png')" ><a href="multimidia.html">Multimídia</a></li>
+            <li onmouseover="mudafoto('imagens/contato.png')" onmouseout="mudafoto('imagens/multimidia.png')" ><a href="fale-conosco.html">Fale conosco</a></li>
+        </ul> 
+    </nav>
+</header> 
+<section id="corpo-full" >
+    <article id="noticia-principal">
+        <header id="cabecalho-de-artigo">    
+            <hgroup>
+                <h3>Glass > Multimidia</h3>
+                <h1>Sons e Vídeos</h1>
+                <h2>por José Angelo de Oliveira</h2>
+                <h3 class="direita" >Atualizado em 02/Julho/2022</h3>
+            </hgroup>
+        </header>
+    <div id="tv-radio">
+            <audio id="musica" controls>
+                <source src="media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+            </audio>
+    
+            <video id="filme" controls poster="_imagens/video-mini03.jpg">
+                <source src="media/getting-started.mp4" type="video/mp4">
+            </video>
+    </div>    
+    </article>    
+</section>
+<footer id="rodape">
+    <p>Copyright &copy; 2022 - by José Angelo<br/>
+    <a href="https://www.facebook.com/CursosEmVideo" target="blank"> Facebook </a> | 
+    <a href="https://twitter.com/cursosemvideo" target="blank"> Twitter </a></p>
+</footer>   
+</div>    
+</body>
+</html>
